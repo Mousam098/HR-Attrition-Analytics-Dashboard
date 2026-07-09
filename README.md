@@ -1,96 +1,106 @@
-# 📊 HR Attrition Analytics Dashboard
-
-A complete, GitHub-ready **Power BI HR Analytics Project** focused on employee attrition analysis, workforce risk identification, and retention insights.
-
-This project uses a reproducible **synthetic HR dataset** containing **1,470 employee records** with realistic patterns and deliberate correlations. The dashboard helps analyze why employees leave, which groups are at higher risk, and how much attrition may cost the organization.
-
----
+# HR Attrition Analytics Dashboard
 
 ## 📌 Project Overview
 
-Employee attrition is one of the most important problems in workforce management. High attrition increases hiring cost, training cost, productivity loss, and business disruption.
+The **HR Attrition Analytics Dashboard** is an interactive Power BI project designed to analyze employee attrition trends and identify the major factors influencing employee turnover.
 
-This project analyzes employee data to answer key HR questions such as:
+Employee attrition is one of the most important challenges for any organization. High attrition affects productivity, increases hiring costs, and creates instability in workforce planning. This dashboard helps HR teams and management understand attrition patterns using data-driven insights.
 
-- Which employees are more likely to leave?
-- What factors drive attrition?
-- How does overtime impact attrition?
-- Are new hires leaving faster than experienced employees?
-- What is the estimated annual cost of attrition?
-- Which active employees match the profile of past leavers?
-
-The final output is a professional **Power BI dashboard** supported by clean data, documented DAX measures, Power Query transformation logic, and business insights.
+The project uses a publicly available HR dataset for learning and analytical purposes. The dataset does not contain any private or confidential company employee data.
 
 ---
 
-## 🚀 Key Features
+## 🎯 Objective of the Project
 
-- 1,470-row synthetic HR dataset
-- 17.0% attrition rate
-- Reproducible data generation script
-- Full data dictionary
-- Power Query M transformation code
-- Explained DAX measures
-- Custom Attrition Risk Score model
-- Business questions and insights
-- Retention watch-list logic
-- GitHub-ready project structure
-- Step-by-step Power BI build guide
+The main objective of this project is to analyze employee attrition and provide meaningful insights that can help organizations improve employee retention.
 
----
+The dashboard focuses on answering questions such as:
 
-## 📊 Real Insights from the Dataset
-
-The findings below are computed directly from the included CSV dataset:
-
-| Insight Area | Finding |
-|---|---|
-| Overall Attrition | 17.0% attrition rate |
-| Overtime Impact | Overtime employees leave at 23.5% vs 14.2% for non-overtime employees |
-| New Hire Risk | Employees with ≤1 year tenure leave at 22.0% vs 13.8% for others |
-| Estimated Cost | Estimated annual attrition cost is approximately $7.0M |
-| Risk Watch-list | 31 active employees match the risk profile of past leavers |
+- Which age group has the highest attrition?
+- Which job roles are most affected by attrition?
+- How does overtime impact employee attrition?
+- What is the relationship between job satisfaction and attrition?
+- Which departments have higher employee turnover?
+- How do work-life balance, environment satisfaction, and job involvement affect attrition?
 
 ---
 
-## 🧠 Business Problem
+## 🧩 Problem Statement
 
-The HR team needs to understand employee attrition patterns and identify employees who may be at risk of leaving.
+Organizations often face difficulty in identifying the exact reasons behind employee attrition. Without proper analysis, HR teams may not know which employee groups are at higher risk of leaving.
 
-The main business goals are:
-
-- Reduce employee attrition
-- Identify high-risk employee groups
-- Understand key drivers of resignation
-- Estimate financial impact of attrition
-- Support proactive retention planning
-- Build a data-driven HR decision-making dashboard
+This project solves that problem by creating a Power BI dashboard that converts raw HR data into clear visual insights. These insights can support better decision-making in employee retention, workforce planning, and HR strategy.
 
 ---
 
-## 📁 Repository Structure
+## 📊 Dataset Information
+
+The dataset used in this project is an HR employee attrition dataset collected from a publicly available source such as Kaggle/IBM HR Analytics sample data.
+
+The dataset contains:
+
+- **Total Records:** 1,470 employees
+- **Total Attributes:** 38 columns
+- **File Format:** CSV / Excel
+- **Data Type:** HR employee demographic, job, salary, satisfaction, and attrition-related information
+
+Since this is a public dataset, it does not expose or harm any real company's private employee data.
+
+---
+
+## 📁 Dataset Attributes
+
+The dataset includes employee-related features such as:
+
+- Age
+- Gender
+- Department
+- Job Role
+- Education Field
+- Monthly Income
+- Hourly Rate
+- Business Travel
+- Distance From Home
+- Years at Company
+- Years in Current Role
+- Overtime
+- Job Level
+- Job Satisfaction
+- Environment Satisfaction
+- Relationship Satisfaction
+- Work-Life Balance
+- Performance Rating
+- Attrition
+
+---
+
+## 🛠️ Tools and Technologies Used
+
+- **Power BI Desktop** – Dashboard design and data visualization
+- **Power Query** – Data cleaning and transformation
+- **DAX** – Measures and calculated fields
+- **Microsoft Excel** – Data handling and preprocessing
+- **CSV Dataset** – Raw HR data source
+
+---
+
+## 🔄 Project Workflow
+
+The project was created using the following workflow:
 
 ```text
-HR-Attrition-Analytics-Dashboard/
-│
-├── data/
-│   ├── hr_attrition_synthetic.csv
-│   └── data_dictionary.md
-│
-├── scripts/
-│   └── generate_data.py
-│
-├── powerbi/
-│   ├── Power_Query_M_Code.md
-│   ├── DAX_Measures.md
-│   ├── Attrition_Risk_Score.md
-│   └── Build_Guide.md
-│
-├── docs/
-│   ├── Business_Questions.md
-│   ├── Insights.md
-│   └── GitHub_Push_Instructions.md
-│
-├── README.md
-├── LICENSE
-└── .gitignore
+HR Dataset
+    ↓
+CSV / Excel File
+    ↓
+Data Import in Power BI
+    ↓
+Power Query Cleaning
+    ↓
+Data Modeling
+    ↓
+DAX Measures Creation
+    ↓
+Dashboard Design
+    ↓
+Insights and Analysis
